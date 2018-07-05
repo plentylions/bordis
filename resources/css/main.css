@@ -1,13 +1,16 @@
 body, 
 body > #vue-app, 
-body > #vue-error, 
-.page-content,
+body > #vue-error,
 .wrapper-main .navbar{
     background: #fff;
 }
 
 body > #vue-app .wrapper-main{
     background: url(../images/bg.gif);
+}
+
+.page-content{
+    background-color: #f7f7f9;
 }
 
 .container-max.login{
