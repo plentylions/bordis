@@ -6,6 +6,10 @@ body > #vue-error,
     background: #fff;
 }
 
+body > #vue-app .wrapper-main{
+    background: url(../images/bg.gif);
+}
+
 .top-bar .controls-list .control-basket .toggle-basket-preview,
 .top-bar .controls-list .control-basket .toggle-basket-preview:hover,
 .top-bar .controls-list > li a:not(.btn)[aria-expanded="true"], 
@@ -87,6 +91,9 @@ a:hover{
         top: unset; */
         -webkit-transform: unset;
         transform: unset; */
+    }
+    .wrapper-main .navbar a{
+        width: 100%;
     }
     .wrapper-main .navbar a,
     .navbar-brand img{
