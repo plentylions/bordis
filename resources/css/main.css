@@ -10,6 +10,12 @@ body > #vue-app .wrapper-main{
     background: url(../images/bg.gif);
 }
 
+.container-max.login{
+    padding-top: 1rem;
+    background-color: #f7f7f9;
+}
+
+
 .top-bar .controls-list .control-basket .toggle-basket-preview,
 .top-bar .controls-list .control-basket .toggle-basket-preview:hover,
 .top-bar .controls-list > li a:not(.btn)[aria-expanded="true"], 
@@ -67,6 +73,9 @@ a:hover{
 }
 .footer-content > div.copyright{
     padding-top: 40px;
+}
+.footer{
+    background-color: unset;
 }
 
 @media (min-width: 992px){
